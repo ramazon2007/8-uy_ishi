@@ -1,0 +1,1012 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  height: 56px;
+}
+.container img {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.container ul {
+  position: relative;
+  display: flex;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  gap: 20px;
+  list-style-type: none;
+  top: -12px;
+  left: 20px;
+}
+.container ul li {
+  cursor: pointer;
+}
+.container ul li:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container .ikon {
+  position: relative;
+  width: 145px;
+  height: 30px;
+  display: flex;
+  gap: 24px;
+  top: -55px;
+  left: 1140px;
+}
+.container .ikon i {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.container1 {
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+}
+.container1 img {
+  width: 1280px;
+  height: 600px;
+}
+.container1 h1 {
+  position: relative;
+  font-size: 57px;
+  font-family: roboto;
+  line-height: 68px;
+  letter-spacing: 2px;
+  top: -436px;
+  left: 129px;
+}
+.container1 p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 24px;
+  top: -436px;
+  left: 129px;
+}
+.container1 button {
+  position: relative;
+  width: 143px;
+  height: 40px;
+  border-radius: 4px;
+  color: #3C4043;
+  border: 2px solid #3C4043;
+  top: -436px;
+  left: 129px;
+  background-color: transparent;
+}
+.container1 button:hover {
+  background-color: transparent;
+  color: #1967D2;
+  transition: 0.5s;
+  border: 2px solid #1967D2;
+}
+.container1 h2 {
+  position: relative;
+  font-size: 16px;
+  font-family: roboto;
+  color: #3C4043;
+  top: -465px;
+  left: 296px;
+  cursor: pointer;
+}
+.container1 h2:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+
+.container2 {
+  position: relative;
+  width: 1280px;
+  height: 566px;
+  margin: 0 auto;
+  top: 80px;
+}
+.container2 h3 {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container2 .flex {
+  position: relative;
+  width: 1280px;
+  height: 500px;
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+  top: 39px;
+}
+.container2 .flex .box1 {
+  width: 183px;
+  height: 254px;
+  border-radius: 20px;
+  background-color: #F8F9FA;
+}
+.container2 .flex .box1 .heg p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1967D2;
+  line-height: 18px;
+  left: 10px;
+  letter-spacing: 0em;
+}
+.container2 .flex .box1 img {
+  position: relative;
+  width: 183px;
+  height: 214px;
+  background-color: #F8F9FA;
+  top: -15px;
+}
+.container2 .flex .box1 h4 {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 10px;
+  cursor: pointer;
+}
+.container2 .flex .box2 {
+  width: 183px;
+  height: 254px;
+  border-radius: 20px;
+  background-color: #F8F9FA;
+}
+.container2 .flex .box2 .heg p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1967D2;
+  line-height: 18px;
+  left: 10px;
+  letter-spacing: 0em;
+}
+.container2 .flex .box2 img {
+  position: relative;
+  width: 183px;
+  height: 214px;
+  background-color: #F8F9FA;
+  top: -15px;
+}
+.container2 .flex .box2 h4 {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 10px;
+  cursor: pointer;
+}
+.container2 .flex .box3 {
+  width: 183px;
+  height: 254px;
+  border-radius: 20px;
+  background-color: #F8F9FA;
+}
+.container2 .flex .box3 .heg p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1967D2;
+  line-height: 18px;
+  left: 10px;
+  letter-spacing: 0em;
+}
+.container2 .flex .box3 img {
+  position: relative;
+  width: 183px;
+  height: 214px;
+  background-color: #F8F9FA;
+  top: -15px;
+}
+.container2 .flex .box3 h4 {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 10px;
+  cursor: pointer;
+}
+.container2 .flex .box4 {
+  width: 183px;
+  height: 254px;
+  border-radius: 20px;
+  background-color: #F8F9FA;
+}
+.container2 .flex .box4 .heg p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1967D2;
+  line-height: 18px;
+  left: 10px;
+  letter-spacing: 0em;
+}
+.container2 .flex .box4 img {
+  position: relative;
+  width: 183px;
+  height: 214px;
+  background-color: #F8F9FA;
+  top: -15px;
+}
+.container2 .flex .box4 h4 {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 10px;
+  cursor: pointer;
+}
+.container2 .flex .box5 {
+  width: 183px;
+  height: 254px;
+  border-radius: 20px;
+  background-color: #F8F9FA;
+}
+.container2 .flex .box5 .heg p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1967D2;
+  line-height: 18px;
+  left: 10px;
+  letter-spacing: 0em;
+}
+.container2 .flex .box5 img {
+  position: relative;
+  width: 183px;
+  height: 214px;
+  background-color: #F8F9FA;
+  top: -15px;
+}
+.container2 .flex .box5 h4 {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 10px;
+  cursor: pointer;
+}
+.container2 .flex .box6 {
+  width: 183px;
+  height: 254px;
+  border-radius: 20px;
+  background-color: #F8F9FA;
+}
+.container2 .flex .box6 .heg p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1967D2;
+  line-height: 18px;
+  left: 10px;
+  letter-spacing: 0em;
+}
+.container2 .flex .box6 img {
+  position: relative;
+  width: 183px;
+  height: 214px;
+  background-color: #F8F9FA;
+  top: -15px;
+}
+.container2 .flex .box6 h4 {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 10px;
+  cursor: pointer;
+}
+
+.container3 {
+  position: relative;
+  width: 1232px;
+  height: 616px;
+  margin: 0 auto;
+  border-radius: 28px;
+  top: 80px;
+}
+.container3 img {
+  border-radius: 28px 0px 0px 28px;
+}
+.container3 h1 {
+  position: relative;
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  top: -422px;
+  left: 737px;
+}
+.container3 p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: -414px;
+  left: 737px;
+}
+.container3 button {
+  position: relative;
+  background-color: transparent;
+  border: 0px;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  top: -414px;
+  left: 737px;
+}
+.container3 button:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+
+.container4 {
+  position: relative;
+  width: 1280px;
+  height: 692px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto;
+  top: 160px;
+}
+.container4 .bulak {
+  width: 395px;
+  height: 692px;
+  background-color: #E9E3DB;
+  border-radius: 28px;
+}
+.container4 .bulak p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3C4043;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  top: 20px;
+}
+.container4 .bulak h1 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  top: 15px;
+}
+.container4 .bulak h2 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  top: 5px;
+}
+.container4 .bulak button {
+  position: relative;
+  width: 123px;
+  height: 24px;
+  top: 25px;
+  left: 130px;
+  border-radius: 4px;
+  border: 2px solid #202124;
+  font-family: roboto;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container4 .bulak button:hover {
+  border: 2px solid #1967D2;
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container4 .bulak img {
+  position: relative;
+  width: 395px;
+  height: 460px;
+  top: 56px;
+}
+
+.container5 {
+  position: relative;
+  width: 1280px;
+  height: 733px;
+  display: flex;
+  gap: 24px;
+  border-radius: 28px 28px 0px 0px;
+  justify-content: center;
+  margin: 0 auto;
+  top: 185px;
+}
+.container5 .ikki {
+  width: 604px;
+  height: 733px;
+  border-radius: 28px 28px 0px 0px;
+  background-color: #D6E2DB;
+}
+.container5 .ikki p {
+  position: relative;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  top: 40px;
+}
+.container5 .ikki h1 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  top: 30px;
+}
+.container5 .ikki h2 {
+  position: relative;
+  font-family: roboto;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  top: 30px;
+}
+.container5 .ikki button {
+  position: relative;
+  width: 123px;
+  height: 24px;
+  top: 50px;
+  left: 220px;
+  border-radius: 4px;
+  border: 2px solid #202124;
+  font-family: roboto;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container5 .ikki button:hover {
+  border: 2px solid #1967D2;
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container5 .ikki img {
+  position: relative;
+  width: 604px;
+  height: 461px;
+  top: 97px;
+}
+.container5 .ikki1 {
+  width: 604px;
+  height: 733px;
+  border-radius: 28px 28px 0px 0px;
+  background-color: #EFDDCD;
+}
+.container5 .ikki1 p {
+  position: relative;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  top: 40px;
+}
+.container5 .ikki1 h1 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  top: 30px;
+}
+.container5 .ikki1 button {
+  position: relative;
+  width: 123px;
+  height: 24px;
+  top: 50px;
+  left: 220px;
+  border-radius: 4px;
+  border: 2px solid #202124;
+  font-family: roboto;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container5 .ikki1 button:hover {
+  border: 2px solid #1967D2;
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container5 .ikki1 img {
+  position: relative;
+  width: 604px;
+  height: 420px;
+  top: 97px;
+}
+
+.container6 {
+  position: relative;
+  width: 1280px;
+  height: 270px;
+  margin: 0 auto;
+  top: 305px;
+}
+.container6 h1 {
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.container6 .quloqchin {
+  position: relative;
+  width: 1015px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  gap: 23px;
+  top: 43px;
+}
+.container6 .text {
+  position: relative;
+  width: 1015px;
+  height: 20px;
+  display: flex;
+  margin: 0 auto;
+  gap: 200px;
+  top: 5px;
+  left: 10px;
+}
+.container6 .text p {
+  position: relative;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1967D2;
+  cursor: pointer;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+
+.container7 {
+  position: relative;
+  width: 1280px;
+  height: 733px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto;
+  top: 425px;
+}
+.container7 .begin1 {
+  width: 604px;
+  height: 733px;
+  border-radius: 28px 28px 0px 0px;
+  background-color: #F3F2F1;
+}
+.container7 .begin1 p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  top: 40px;
+  color: #3C4043;
+  cursor: pointer;
+}
+.container7 .begin1 p:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container7 .begin1 h2 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #3C4043;
+  top: 25px;
+}
+.container7 .begin1 h3 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #3C4043;
+  top: 15px;
+}
+.container7 .begin1 button {
+  position: relative;
+  width: 162px;
+  height: 24px;
+  left: 200px;
+  top: 50px;
+  color: #5F6368;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 2px solid #5F6368;
+  cursor: pointer;
+}
+.container7 .begin1 button:hover {
+  border: 2px solid #1967D2;
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container7 .begin1 img {
+  position: relative;
+  width: 604px;
+  height: 461px;
+  top: 95px;
+}
+.container7 .begin2 {
+  width: 604px;
+  height: 733px;
+  border-radius: 28px 28px 0px 0px;
+  background-color: #E7EBEE;
+}
+.container7 .begin2 p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+  top: 40px;
+  color: #3C4043;
+  cursor: pointer;
+}
+.container7 .begin2 p:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container7 .begin2 h2 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #3C4043;
+  top: 25px;
+}
+.container7 .begin2 h3 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #3C4043;
+  top: 15px;
+}
+.container7 .begin2 button {
+  position: relative;
+  width: 162px;
+  height: 24px;
+  left: 200px;
+  top: 50px;
+  color: #5F6368;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 2px solid #5F6368;
+  cursor: pointer;
+}
+.container7 .begin2 button:hover {
+  border: 2px solid #1967D2;
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container7 .begin2 img {
+  position: relative;
+  width: 604px;
+  height: 461px;
+  top: 95px;
+}
+
+.container8 {
+  position: relative;
+  width: 1280px;
+  height: 604px;
+  margin: 0 auto;
+  top: 550px;
+}
+.container8 img {
+  width: 604px;
+  height: 604px;
+}
+.container8 h1 {
+  position: relative;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #3C4043;
+  letter-spacing: 0.5px;
+  text-align: left;
+  top: -421px;
+  left: 729px;
+}
+.container8 p {
+  position: relative;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3C4043;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: -402px;
+  left: 729px;
+}
+.container8 button {
+  position: relative;
+  width: 128px;
+  height: 40px;
+  border-radius: 4px;
+  border: 2px solid #3C4043;
+  color: #3C4043;
+  top: -388px;
+  left: 729px;
+  background-color: transparent;
+}
+.container8 button:hover {
+  color: #1967D2;
+  border: 2px solid #1967D2;
+  transition: 0.5s;
+}
+
+.container9 {
+  position: relative;
+  width: 1280px;
+  height: 386px;
+  margin: 0 auto;
+  top: 630px;
+}
+.container9 img {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  top: 60px;
+  left: 616px;
+  cursor: pointer;
+}
+.container9 h4 {
+  position: relative;
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  top: 74px;
+}
+.container9 button {
+  position: relative;
+  width: 174px;
+  height: 24px;
+  top: 109px;
+  left: 553px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 2px solid #5F6368;
+  color: #5F6368;
+}
+.container9 button:hover {
+  color: #1967D2;
+  border: 2px solid #1967D2;
+  transition: 0.5s;
+}
+.container9 p {
+  position: relative;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1967D2;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  top: 138px;
+  cursor: pointer;
+}
+
+.container10 {
+  position: relative;
+  width: 1280px;
+  height: 128px;
+  top: 654px;
+  margin: 0 auto;
+}
+.container10 p {
+  position: relative;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3C4043;
+  top: 26px;
+  left: 42px;
+}
+
+.container11 {
+  position: relative;
+  width: 1280px;
+  height: 656px;
+  margin: 0 auto;
+  top: 654px;
+}
+.container11 .ul1 {
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style-type: none;
+  top: 96px;
+  left: 840px;
+}
+.container11 .ul1 li {
+  cursor: pointer;
+}
+.container11 .ul1 li:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container11 .ul2 {
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style-type: none;
+  top: -228px;
+  left: 1020px;
+}
+.container11 .ul2 li {
+  cursor: pointer;
+}
+.container11 .ul2 li:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+.container11 .chiziq {
+  position: relative;
+  width: 1088px;
+  height: 1px;
+  background-color: #F2F2F2;
+  top: -177px;
+  margin: 0 auto;
+}
+
+.footer {
+  position: relative;
+  width: 1280px;
+  height: 50px;
+  top: -175px;
+}
+.footer .ikonka {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  top: 16px;
+  left: 96px;
+}
+.footer .ikonka i {
+  cursor: pointer;
+  color: black;
+}
+.footer .ikonka i:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+.footer img {
+  position: relative;
+  width: 24px;
+  height: 18px;
+  top: -10px;
+  left: 485px;
+  cursor: pointer;
+}
+.footer .ul6 {
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  top: -25px;
+  left: 492px;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer .ul6 li {
+  cursor: pointer;
+}
+.footer .ul6 li:hover {
+  color: #1967D2;
+  transition: 0.5s;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}/*# sourceMappingURL=main.css.map */
